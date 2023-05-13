@@ -1,0 +1,95 @@
+/* body{
+    background-image: radial-gradient(circle, #7d97be, #66a7c7, #59b6c3, #66c2b4, #89cba0);
+} */
+
+nav {
+    background-color: #333;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    position: relative;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav li:hover {
+    background: rgb(174,219,238);
+    background: radial-gradient(circle, rgba(174,219,238,1) 0%, rgba(150,233,148,1) 100%); ;
+    border-radius: 10px;
+  }
+  
+  nav li:hover a {
+    color: black;
+  }
+  
+  nav li a {
+    display: block;
+    color: #ccc;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  nav li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.2s;
+  }
+  
+  nav li:hover::before {
+    background-color: #fff;
+  }
+  
+  nav li:first-child {
+    padding-left: 0;
+  }
+  
+  .left {
+    float: left;
+    width: 50%;
+  }
+  
+  .right {
+    float: right;
+    width: 50%;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 60px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: rgb(8, 36, 61);
+  }
+  
+  
