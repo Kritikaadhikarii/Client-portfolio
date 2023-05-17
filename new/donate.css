@@ -1,12 +1,3 @@
-/* body{
-    background-image: radial-gradient(circle, #7d97be, #66a7c7, #59b6c3, #66c2b4, #89cba0);
-} */
-
-
-* {
-  font-family: 'Amatic SC', cursive;
-}
-
 nav {
     background-color: #333;
     border-radius: 15px;
@@ -65,52 +56,3 @@ nav {
   nav li:first-child {
     padding-left: 0;
   }
-  
-  .left {
-    float: left;
-    width: 50%;
-  }
-  
-  .right {
-    float: right;
-    width: 50%;
-    background-color: #4DB3A0;
-    border-radius: 35px;
-  }
-  
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  h1 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 80px;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    color: rgb(8, 36, 61);
-    background-color: rgb(174,219,238);
-    border-radius: 35px;
-  }
-  
-  h2{
-    font-family: 'Amatic SC', cursive;
-    font-size: 50px;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    color: rgb(8, 36, 61);
-  }
-  
-  p {
-    background-color: #D77E29;
-    border-radius: 35px;
-    display: inline-block;
-    padding: 10px;
-    text-align: center;
-    position: absolute;
-
-  }
-  
