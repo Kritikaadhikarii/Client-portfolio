@@ -1,9 +1,7 @@
-h1{
-    color: brown;
-}
+
 
 body{
-    background-color: aquamarine;
+    background-color: navajowhite;
 }
 
 
@@ -47,21 +45,6 @@ nav {
     transition: color 0.2s;
   }
   
-  nav li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 3px;
-    background-color: transparent;
-    transition: background-color 0.2s;
-  }
-  
-  nav li:hover::before {
-    background-color: #fff;
-  }
-  
-  nav li:first-child {
-    padding-left: 0;
-  }
+.multitext{
+  color: #F29031;
+}
