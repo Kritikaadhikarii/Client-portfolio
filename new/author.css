@@ -48,3 +48,22 @@ nav {
 .multitext{
   color: #F29031;
 }
+
+/* CSS code for the parent container */
+.parent {
+  width: 100%;
+  display: flex;
+}
+
+/* CSS code for the left container */
+.left {
+  width: 50%;
+  float: left;
+}
+
+/* CSS code for the right container */
+.right img{
+  width: 50%;
+  height: auto;
+  float: right;
+}
