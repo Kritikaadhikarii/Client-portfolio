@@ -1,3 +1,8 @@
+body{
+  text-align: center;
+  background-color: #C2EBF5;
+}
+
 nav {
   background-color: #333;
   border-radius: 15px;
@@ -103,4 +108,13 @@ nav li a {
   .books p {
     text-align: center;
     margin-top: 0; /* Added to remove the small gap above the text */
+  }
+
+
+  h1{
+    color: #a6ae42;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #223148;
+    padding: 10px;
   }
